@@ -1,8 +1,10 @@
 body {
       scroll-behavior: smooth;
+      background: linear-gradient(to bottom, #2C3E50, #3B3B3B);
+      color: white;
+
     }
 #hero {
-    background-color: #f8f9fa;
     padding: 100px 0;
     text-align: center;
 }
@@ -26,4 +28,10 @@ footer {
 .fade-in.show {
       opacity: 1;
       transform: translateY(0);
-    }
+}
+
+.img-thumbnail{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
